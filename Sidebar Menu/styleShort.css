@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    background-color: azure;
+    display: flex;
+}
+
+.main_container h1 {
+    font-size: 5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 100vh;
+    background-color: rgb(1, 1, 19);
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.container img {
+    width: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    filter: invert(100%) brightness(200%);
+    margin-bottom: 10px;
+}
+
+.smain, .sgene, .sacc {
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.smain div, .sgene div, .sacc div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.spro_container {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sname img {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%) brightness(200%);
+}
